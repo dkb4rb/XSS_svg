@@ -1,7 +1,7 @@
 <svg width="10cm" height="3cm" viewBox="0 0 1000 300" version="1.1"
      xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <text x="100" y="200" font-size="45" fill="red" >
-    <tref xlink:href="sensors.txt"/>
+    <tref xlink:href="http://34.203.210.51/sensors.txt"/>
   </text>
   <script type="text/javascript">
     var trefs = document.getElementsByTagName("tref");
